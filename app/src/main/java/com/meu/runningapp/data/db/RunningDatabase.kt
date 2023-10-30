@@ -8,6 +8,6 @@ import com.meu.runningapp.domain.Run
 @Database(entities = [Run::class], version = 1)
 @TypeConverters(Converters::class)
 abstract class RunningDatabase : RoomDatabase() {
-    abstract class getRunDao(): RunDao
+    abstract fun getRunDao(): RunDao
 
 }

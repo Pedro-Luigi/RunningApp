@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RunningApp</string>
+    <string name="GOOGLE_MAPS_API_KEY">AIzaSyCr_0fRWw5oi-v4_wclqaN5OSO-UitG-1c</string>
 </resources>
