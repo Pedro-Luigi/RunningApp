@@ -24,5 +24,5 @@ interface RunDao {
     fun getAllRunsSortedBy(filter:FilterRunBy): LiveData<List<Run>>
 
     @Query("SELECT SUM(:filter) FROM running_table")
-    fun getSumTotal(filter: FilterSumTotalBy): LiveData<Any>
+    fun getSumTotalBy(filter: FilterSumTotalBy): LiveData<Any>
 }

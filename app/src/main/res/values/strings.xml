@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RunningApp</string>
+    <string name="hint_your_name">Seu Nome</string>
+    <string name="hint_your_weight">Seu Peso</string>
+    <string name="txt_total_time">Tempo Total</string>
+    <string name="txt_total_calories_burned">Total de Calorias Queimadas</string>
+    <string name="txt_average_speed">Velocidade Média</string>
+    <string name="txt_total_distance">Distância Total</string>
 </resources>
