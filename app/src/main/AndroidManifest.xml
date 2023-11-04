@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
     <!-- Acessa a localização correta!-->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <!-- Acessa o percurso que o usuário irá andar!-->
@@ -35,6 +37,6 @@
         <meta-data android:name="com.google.android.gms.verison"
             android:value="@integer/google_play_services_version"/>
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value= "$GOOGLE_MAPS_API_KEY"/>
+            android:value= "$google_maps_api_key"/>
     </application>
 </manifest>
