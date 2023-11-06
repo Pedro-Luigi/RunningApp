@@ -22,4 +22,10 @@ object TrackingUtility {
                 Manifest.permission.ACCESS_BACKGROUND_LOCATION
             )
         }
+
+    enum class ActionServiceTracking {
+        ACTION_START_OR_RESUME_SERVICE,
+        ACTION_PAUSE_SERVICE,
+        ACTION_STOP_SERVICE
+    }
 }
